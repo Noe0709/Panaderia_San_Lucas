@@ -1,0 +1,13 @@
+com\sancarlos\modelo\MateriaPrima.class
+com\sancarlos\modelo\Ingrediente.class
+com\sancarlos\panaderia\resources\JavaEE8Resource.class
+com\sancarlos\controlador\SucursalesController.class
+com\sancarlos\modelo\Inventario.class
+com\sancarlos\controlador\EmpleadoController.class
+com\sancarlos\modelo\Producto.class
+com\sancarlos\modelo\Sucursal.class
+com\sancarlos\modelo\Empleado.class
+com\sancarlos\controlador\PedidoController.class
+com\sancarlos\controlador\ProductoController.class
+com\sancarlos\modelo\Pedido.class
+com\sancarlos\panaderia\JAXRSConfiguration.class

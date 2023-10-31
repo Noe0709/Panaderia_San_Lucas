@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "8bcad033-acea-4ae8-b0ad-4985d696e4ca",
+		"name": "Noelio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6647083",
+		"_collection_link": "https://restless-shadow-449683.postman.co/workspace/IMPRESION-ACTAS~06714226-77b8-46d3-a8de-9bc03b61ea52/collection/6647083-8bcad033-acea-4ae8-b0ad-4985d696e4ca?action=share&source=collection_link&creator=6647083"
+	},
+	"item": [
+		{
+			"name": "sucursales",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Panaderia/api/sucursales/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Panaderia",
+						"api",
+						"sucursales",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Panaderia/api/productos/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Panaderia",
+						"api",
+						"productos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"correo\": \"juan.perez@example.com\",\n    \"pass\": \"a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\",\n    \"sucursal\": \"1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Panaderia/api/empleado/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Panaderia",
+						"api",
+						"empleado",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sucursal\": \"juan.perez@example.com\",\n    \"empleado\": \"a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\",\n    \"carrito\": \"{}\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Panaderia/api/pedido/generarPedido",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Panaderia",
+						"api",
+						"pedido",
+						"generarPedido"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
